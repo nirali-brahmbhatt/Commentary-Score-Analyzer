@@ -1,7 +1,7 @@
 import io
 from typing import Optional
 import streamlit as st
-from Engine import analyze_commentary_score
+from engine import analyze_commentary_score
 
 try:
     from pypdf import PdfReader
